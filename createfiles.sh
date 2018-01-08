@@ -1,5 +1,4 @@
 
-echo $4 
 if [ $# -lt 4 ]
 then
  echo "Usage : createfiles.sh numberoffiles numberoflines numberofcolumns columndelimter"
