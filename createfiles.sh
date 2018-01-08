@@ -40,4 +40,4 @@ filen=`expr $filen + 1`
 done
  
 hadoop fs -mkdir /user/datfiles
-hadoop fs -copyFromLocal /user/amar/file* /user/datafiles/
+hadoop fs -put '/user/amar/file*' /user/datafiles/
